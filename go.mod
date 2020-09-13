@@ -1,4 +1,4 @@
-module github.com/vedantmamgain/go-fiber
+module github.com/vedantmamgain/botServer
 
 go 1.15
 

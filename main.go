@@ -10,9 +10,6 @@ import (
 	"github.com/vedantmamgain/go-fiber/database"
 )
 
-func helloWorld(c *fiber.Ctx) {
-	c.Send("Hello World")
-}
 func setupRoutes(c *fiber.App) {
 	c.Get("/api/v1/book", books.GetBooks)
 	c.Get("/api/v1/book/:id", books.GetBook)
